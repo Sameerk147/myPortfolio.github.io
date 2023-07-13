@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfoli Sameer Khan</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" /> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" />
+  <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+  <script src="https://kit.fontawesome.com/ab6de44e0c.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+
+
+</head>
+
+<body>
+  <div class="scroll-up-btn">
+    <i class="fas fa-angle-up"></i>
+  </div>
+  <!-- ------------Header------------ -->
+  <div id="header">
+    <div class="container">
+      <nav class="navbar">
+        <div class="logo">
+          <a href="/">S<span>ameer.</span></a>
+        </div>
+        <ul id="side-menu">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#teams">My Teams</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <i class="fas fa-times" onclick="closeMenu()"></i>
+        </ul>
+        <i class="fas fa-bars" onclick="openMenu()"></i>
+      </nav>
+      <div class="header-text">
+        <h1>
+          Hi, I'm <span>Sameer</span><br />
+          Khan From India
+        </h1>
+        <h3>I'm <span class="typing"></span></h3>
+      </div>
+    </div>
+  </div>
+
+  <!-- -------------about------------ -->
+
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="Images/IMG_20220118_232552_191.jpg" alt="" />
+        </div>
+        <div class="about-col-2">
+          <h1 class="title">About Me</h1>
+          <div class="text">
+            I'm Sameer and I'm <span class="typing-2"></span>
+          </div>
+          <p>
+            ➔ Ability to learn new Technologies and tools quickly. <br>
+            ➔ Sound knowledge in HTML5, CSS3, Javascript, ReactJs and Python
+            Technologies. <br>
+            ➔ Capable of adopting to work on new Technologies
+            and Environments easily. <br>
+            ➔ Build reusable code for future use
+            while optimizing web performance
+          </p>
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="openTab('skills')">
+              Skills
+            </p>
+            <p class="tab-links" onclick="openTab('education')">Education</p>
+            <p class="tab-links" onclick="openTab('experience')">
+              Experience
+            </p>
+          </div>
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li>
+                <span>Web Development </span><br />
+                Web App Development
+              </li>
+              <li>
+                <span>UI/UX</span><br />
+                Designing Web/App Interfaces
+              </li>
+              <li>
+                <span>Software Development</span> <br />Building Softwares
+              </li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="experience">
+            <section class="skills" id="skills">
+              <div class="skills-content">
+                <div class="column right">
+                  <div class="bars">
+                    <div class="info">
+                      <span>HTML</span>
+                      <span>90%</span>
+                    </div>
+                    <div class="line html"></div>
+                  </div>
+                  <div class="bars">
+                    <div class="info">
+                      <span>CSS</span>
+                      <span>80%</span>
+                    </div>
+                    <div class="line css"></div>
+                  </div>
+                  <div class="bars">
+                    <div class="info">
+                      <span>JavaScript</span>
+                      <span>70%</span>
+                    </div>
+                    <div class="line JavaScript"></div>
+                  </div>
+                  <div class="bars">
+                    <div class="info">
+                      <span>ReactJs</span>
+                      <span>60%</span>
+                    </div>
+                    <div class="line ReactJs"></div>
+                  </div>
+                  <div class="bars">
+                    <div class="info">
+                      <span>Python</span>
+                      <span>70%</span>
+                    </div>
+                    <div class="line Python"></div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+          <div class="tab-contents" id="education">
+            <ul>
+              <li>
+                <span>2019 - 2023 </span><br />B.tech (Computer Science &
+                Engineering) from <br />
+                Prashanti Institute of Technology & Science
+              </li>
+              <li>
+                <span>2018 - 2019 </span><br />
+                12th (Mathematics) from MP Board Bhopal
+              </li>
+              <li>
+                <span>2016 - 2017</span> <br />
+                10th from MP Board Bhopal
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ---------------services----------- -->
+
+  <div id="services">
+    <div class="container">
+      <h1 class="title">My Services</h1>
+      <div class="services-list">
+        <div>
+          <i class="fas fa-code"></i>
+          <h2>Web Development</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
+            autem adipisci facere fugiat tenetur laborum quae nostrum debitis
+            quo a! Amet, fuga. Cum, fuga porro.
+          </p>
+          <a href="#">Learn More</a>
+        </div>
+        <div>
+          <i class="fas fa-crop-alt"></i>
+          <h2>Web Design</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
+            autem adipisci facere fugiat tenetur laborum quae nostrum debitis
+            quo a! Amet, fuga. Cum, fuga porro.
+          </p>
+          <a href="#">Learn More</a>
+        </div>
+        <div>
+          <i class="fab fa-app-store"></i>
+          <h2>Software Development</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
+            autem adipisci facere fugiat tenetur laborum quae nostrum debitis
+            quo a! Amet, fuga. Cum, fuga porro.
+          </p>
+          <a href="#">Learn More</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- --------------Portfolio--------- -->
+  <div id="portfolio">
+    <div class="container">
+      <h1 class="title">My Work</h1>
+      <div class="work-list">
+        <div class="work">
+          <img src="Images/image.jpg" alt="" />
+          <div class="layer">
+            <h3>Social Media App</h3>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+              itaque magni voluptatibus quidem nobis similique.
+            </p>
+            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="Images/bg.jpg" alt="" />
+          <div class="layer">
+            <h3>Music App</h3>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+              itaque magni voluptatibus quidem nobis similique.
+            </p>
+            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="Images/image.jpg" alt="" />
+          <div class="layer">
+            <h3>Potfolio website</h3>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+              itaque magni voluptatibus quidem nobis similique.
+            </p>
+            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+          </div>
+        </div>
+      </div>
+      <a href="#" class="btn">See More</a>
+    </div>
+  </div>
+
+  </section>
+
+
+
+  <!-- -------------My Teams---------- -->
+  <section class="teams" id="teams">
+    <div class="container">
+      <h1 class="title">My Teams</h1>
+      <div class="carousel owl-carousel">
+        <div class="card">
+          <div class="box">
+            <div class="image"> <img src="Images/image.jpg" alt="" />
+            </div>
+
+            <div class="text">Sameer Khan</div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci sunt atque dolore sint hic dolorum illum animi voluptas, harum aliquam.
+            </p>
+            <a href="#" class="btn">Get More</a>
+
+          </div>
+        </div>
+        <div class="card">
+          <div class="box">
+            <div class="image">
+              <img src="Images/bg.jpg" alt="" />
+            </div>
+            <div class="text">Sameer Khan</div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci sunt atque dolore sint hic dolorum illum animi voluptas, harum aliquam.
+            </p>
+            <a href="#" class="btn">Get More</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="box">
+            <div class="image">
+              <img src="Images/IMG_20220118_232552_191.jpg" alt="" />
+            </div>
+            <div class="text">Sameer Khan</div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci sunt atque dolore sint hic dolorum illum animi voluptas, harum aliquam.
+            </p>
+            <a href="#" class="btn">Get More</a>
+
+          </div>
+        </div>
+        <div class="card">
+          <div class="box">
+            <div class="image">
+              <img src="Images/bg.jpg" alt="" />
+            </div>
+            <div class="text">Sameer Khan</div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci sunt atque dolore sint hic dolorum illum animi voluptas, harum aliquam.
+            </p>
+            <a href="#" class="btn">Get More</a>
+
+          </div>
+        </div>
+        <div class="card">
+          <div class="box">
+            <div class="image">
+              <img src="Images/mobile.jpg" alt="" />
+            </div>
+            <div class="text">Sameer Khan</div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci sunt atque dolore sint hic dolorum illum animi voluptas, harum aliquam.
+            </p>
+            <a href="#" class="btn">Get More</a>
+
+          </div>
+        </div>
+        <div class="card">
+          <div class="box">
+            <div class="image">
+              <img src="Images/image.jpg" alt="" />
+            </div>
+            <div class="text">Sameer Khan</div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci sunt atque dolore sint hic dolorum illum animi voluptas, harum aliquam.
+            </p>
+            <a href="#" class="btn">Get More</a>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- --------Contact-------- -->
+  <div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+          <h1 class="title">Contact Me</h1>
+          <p><i class="fas fa-paper-plane"></i> er.sameerk13@gmail.com</p>
+          <p><i class="fas fa-phone-square"></i> +918224068598</p>
+          <div class="social-icons">
+            <a href="https://www.facebook.com/profile.php?id=100009573850194&mibextid=ZbWKwL" target="_blank"
+              title="Facebook"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/iam_mr._same/?igshid=NGExMmI2YTkyZg==" target="_blank"
+              title="instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/sameer-khan-136b06219" target="_blank" title="LinkedIn"><i
+                class="fab fa-linkedin"></i></a>
+          </div>
+          <a href="Resume.pdf" download class="btn btn2">Download Resume</a>
+        </div>
+        <div class="contact-right">
+          <form action="#">
+            <input type="text" name="Name" placeholder="Your Name" required />
+            <input type="email" name="Email" placeholder="Your Email" required />
+            <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+            <button type="submit" class="btn btn2">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      &copy; 2023 All rights reserved | Designed by Sameer Khan
+    </div>
+  </div>
+
+  <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script> -->
+  <script src="script.js"></script>
+</body>
+
+</html>
